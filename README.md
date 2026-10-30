@@ -1,3 +1,15 @@
+---
+title: Agenticwhats Api
+emoji: 🚀
+colorFrom: green
+colorTo: indigo
+sdk: gradio
+sdk_version: 6.31.0
+python_version: '3.12'
+app_file: app.py
+pinned: false
+---
+
 # AgenticWhats — Multi-Tenant Agentic AI WhatsApp Business Automation Platform
 
 A SaaS platform that connects businesses to the **official WhatsApp Business Platform** and answers customers with an **agentic AI** (LangGraph + RAG + deterministic tool calling): it handles FAQs, menu questions, ordering, order status, table bookings, cancellations, multilingual chat (English / Urdu / Roman Urdu) and human handoff — with strict multi-tenant data isolation.
