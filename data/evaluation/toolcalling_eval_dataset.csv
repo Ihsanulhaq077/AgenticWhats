@@ -1,0 +1,9 @@
+user_message,expected_tool,required_arguments,expected_result
+"What is the price of chicken biryani?",search_menu,"{""query"": ""chicken biryani price""}","menu item with price 450"
+"2 chicken biryani bhej do",create_order,"{""items"": [{""name"": ""Chicken Biryani"", ""quantity"": 2}]}","order created with total 1000"
+"where is my order?",get_order_status,"{}","latest order status returned"
+"cancel my order",cancel_order,"{}","order cancelled if policy allows"
+"table for 4 at 8pm",check_booking_availability,"{""date_str"": ""today"", ""time_str"": ""20:00"", ""party_size"": 4}","availability checked"
+"I want to talk to a manager",transfer_to_human,"{}","conversation flagged needs_human"
+"what time do you open?",get_business_hours,"{}","hours returned"
+"what are the delivery charges?",get_delivery_information,"{}","delivery fee 100 returned"

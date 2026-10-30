@@ -1,0 +1,9 @@
+question,business_id,expected_source,expected_answer
+"What time do you open?",1,"Business Hours & Holidays","We are open every day from 11:00 AM to 11:00 PM (PKT)"
+"Which areas do you deliver to?",1,"Delivery Policy","University Road, Board Bazaar, Tehkal, Palosi, Hayatabad Phase 3-5, Saddar Bazaar"
+"What are the delivery charges?",1,"Delivery Policy","PKR 100 flat within 5 km; free above PKR 2,000"
+"What payment methods do you accept?",1,"Payment & Refund Policy","Cash on delivery, JazzCash, Easypaisa, and bank transfer"
+"What is your refund policy?",1,"Payment & Refund Policy","Report within 30 minutes with a photo; replace or refund within 3 working days"
+"Do you take table reservations?",1,"Booking Policy","Yes, 11:00 AM to 10:30 PM, up to 20 guests per slot"
+"How far in advance can I book a table?",1,"Booking Policy","Up to 14 days in advance"
+"Are you open on Eid?",1,"Business Hours & Holidays","Closed on the first day of Eid-ul-Fitr and Eid-ul-Adha"
