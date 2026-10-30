@@ -2,6 +2,18 @@ import os
 import sys
 from pathlib import Path
 
+# Satisfy Hugging Face ZeroGPU check if Space was created with ZeroGPU hardware
+try:
+    import spaces
+
+    @spaces.GPU
+    def _zerogpu_init():
+        return True
+
+    _zerogpu_init()
+except Exception as e:
+    pass
+
 # Add backend to Python path
 ROOT_DIR = Path(__file__).resolve().parent
 BACKEND_DIR = ROOT_DIR / "backend"
@@ -48,3 +60,4 @@ app = gr.mount_gradio_app(fastapi_app, demo, path="/")
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=7860)
+
