@@ -1,5 +1,5 @@
 # AgenticWhats — Multi-Tenant WhatsApp AI Business Automation Platform
-## Complete Development, FYP, SaaS, Dataset, AI, RAG, Agent, and Deployment Specification
+## Complete Development, SaaS, Dataset, AI, RAG, Agent, and Deployment Specification
 
 > **Purpose:** This document is a complete master prompt/specification for building a production-oriented, multi-tenant WhatsApp AI Agent SaaS platform. The first vertical is **restaurants**, but the architecture must be reusable for other businesses such as salons, clinics, hotels, e-commerce stores, real-estate agencies, travel agencies, and service businesses.
 
